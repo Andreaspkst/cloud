@@ -19,12 +19,12 @@ const Hero = () => {
                 <img className='w-full' src={bgImg} alt="/"/>
             </div>
             <div className="absolute flex flex-col py-8 md:min-w-[760px] bottom-[-5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl">
-                <p>Data Services</p>
+                <p className=' font-bold text-indigo-800 '>Data Services</p>
                 <div className="flex justify-between flex-wrap px-4">
-                    <p className='flex px-4 py-2 text-slate-500'><FaCloudArrowUp className='h-6 text-indigo-600' /> App Security</p>
-                    <p className='flex px-4 py-2 text-slate-500'><CiDatabase className='h-6 text-indigo-600' /> Dashboard Design</p>
-                    <p className='flex px-4 py-2 text-slate-500'><CiServer className='h-6 text-indigo-600' /> Cloud Data</p>
-                    <p className='flex px-4 py-2 text-slate-500'><GoPaperAirplane className='h-6 text-indigo-600' /> API Status</p>
+                    <p className='flex px-4 py-2 text-indigo-800'><FaCloudArrowUp className='h-6 text-indigo-600 mr-3' /> App Security</p>
+                    <p className='flex px-4 py-2 text-indigo-800'><CiDatabase className='h-6 text-indigo-600 mr-3' /> Dashboard Design</p>
+                    <p className='flex px-4 py-2 text-indigo-800'><CiServer className='h-6 text-indigo-600 mr-3' /> Cloud Data</p>
+                    <p className='flex px-4 py-2 text-indigo-800'><GoPaperAirplane className='h-6 text-indigo-600 mr-3' /> API Status</p>
                 </div>
             </div>
         </div>
