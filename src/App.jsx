@@ -1,8 +1,10 @@
+import { Navbar } from "./components"
+
 function App() {
 
   return (
     <div className=''>
-      Cloud Web App
+      <Navbar />
     </div>
   )
 }
